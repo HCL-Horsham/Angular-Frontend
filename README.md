@@ -1,3 +1,11 @@
+# FullstackEcommerceApplication
+## SpringBoot-Backend
+### By: Anna Archut, Arnold Patten, Dajun Lin, Seho Chung & Xin Yi Lin
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=bugs)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend)
+  
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend) [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend) [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend)
+
 # AngularEcommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
