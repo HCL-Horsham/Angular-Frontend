@@ -20,7 +20,7 @@ jobs:
         
     - name: npm build
       run: |
-        npm ci
+        npm ci || npm intall
         npm run build --prod
     
     - name: Run test
