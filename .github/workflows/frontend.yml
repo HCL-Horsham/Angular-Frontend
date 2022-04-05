@@ -20,7 +20,7 @@ jobs:
         
     - name: npm build
       run: |
-        npm ci
+        npm install --save
         npm run build --prod
           
     - name: Cache dependencies
