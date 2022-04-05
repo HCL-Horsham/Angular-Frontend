@@ -20,11 +20,8 @@ jobs:
         
     - name: npm build
       run: |
-        npm install --save --legacy-peer-deps
+        npm ci
         npm run build --prod
-    
-    - name: Run test
-      run: npm test
           
     - name: Cache dependencies
       uses: actions/cache@v2
@@ -32,6 +29,9 @@ jobs:
         path: ~/.npm
         key: ${{ runner.OS }}-cache-${{ hashFiles('**/package-lock.json') }}
         restore-keys: ${{ runner.OS }}-cache-
+        
+#     - name: Run test
+#       run: npm test
           
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
