@@ -30,8 +30,8 @@ jobs:
         key: ${{ runner.OS }}-cache-${{ hashFiles('**/package-lock.json') }}
         restore-keys: ${{ runner.OS }}-cache-
         
-#     - name: Run test
-#       run: npm test
+    - name: Run test
+      run: npm test
           
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
