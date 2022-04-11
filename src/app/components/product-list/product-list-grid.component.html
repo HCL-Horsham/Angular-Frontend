@@ -15,10 +15,10 @@
                             <p class="card-text text-truncate">{{product.description}}
                             </p>
                             <div class="price">{{product.unitPrice | currency:"USD"}}</div>
-                            <div class="price">{{ tempProduct.unitsInStock }} in Stock</div>
+                            <div class="price">{{ product.unitsInStock }} in Stock</div>
 
-                            <a *ngIf="tempProduct.unitsInStock >0 " (click)="addToCart(product)" class="btn btn-light">Add To Cart</a>
-                            <a *ngIf="tempProduct.unitsInStock == 0" class="btn btn-secondary btn-sm">Out of stock</a>
+                            <a *ngIf="product.unitsInStock >0 " (click)="addToCart(product)" class="btn btn-light">Add To Cart</a>
+                            <a *ngIf="product.unitsInStock == 0" class="btn btn-secondary btn-sm">Out of tock</a>
                         </div>
                     </div>
                 </div>
