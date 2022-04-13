@@ -19,7 +19,7 @@ jobs:
           node-version: '16.x'
       - name: npm build
         run: |
-          npm install --force
+          npm install --legacy-peer-deps
           npm run build --prod
           
       - name: Cache dependencies
