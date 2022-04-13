@@ -17,20 +17,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - name: npm build
-        run: |
-          npm install @okta/okta-angular @okta/okta-auth-js
-          npm install --legacy-peer-deps
-          npm run build --prod
-          
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.OS }}-cache-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: ${{ runner.OS }}-cache-
+      - name: yarn build
+        run: yarn install
       - name: Run test
-        run: npm test
+        run: yarn test
   
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
