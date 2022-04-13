@@ -1,6 +1,7 @@
 # FullstackEcommerceApplication
 ## Angular-Frontend
 ### By: Anna Archut, Arnold Patten, Dajun Lin, Seho Chung & Xin Yi Lin
+Updated
 
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=bugs)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend) [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=HCL-Horsham_Angular-Frontend&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=HCL-Horsham_Angular-Frontend)
   
