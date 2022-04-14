@@ -24,7 +24,7 @@ jobs:
           
       - name: Testing
         run: |
-          ng test
+          npm test
   
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
