@@ -21,7 +21,6 @@ jobs:
       - name: npm build
         run: |
           npm install --legacy-peer-deps
-          npm test
   
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
