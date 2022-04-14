@@ -21,6 +21,8 @@ jobs:
     - name: npm build
       run: |
         npm ci
+        npm install @okta/okta-angular@"^3.0.1"
+        npm install @okta/okta-signin-widget@"^5.12.0"
         npm run build --prod
           
     - name: Cache dependencies
