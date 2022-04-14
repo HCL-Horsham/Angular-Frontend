@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { LoginStatusComponent } from '../login-status/login-status.component';
 
 import { MembersPageComponent } from './members-page.component';
 
@@ -18,6 +19,7 @@ describe('MembersPageComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
+
 
   it('should create', () => {
     expect(component).toBeTruthy();

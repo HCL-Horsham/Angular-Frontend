@@ -1,16 +1,17 @@
 import { TestBed } from '@angular/core/testing';
-
+import { OktaAuthService } from '@okta/okta-angular';
 import { AuthInterceptorService } from './auth-interceptor.service';
 
 describe('AuthInterceptorService', () => {
-  let service: AuthInterceptorService;
+  
+  let oktaAuthSpy = jasmine.createSpyObj(OktaAuthService, ['']);
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({});
-    service = TestBed.inject(AuthInterceptorService);
-  });
+  it('should create an instance', () => {
 
-  it('should be created', () => {
-    expect(service).toBeTruthy();
-  });
+    expect(new AuthInterceptorService(oktaAuthSpy)).toBeDefined();
+})
+
+  
+
+  
 });
