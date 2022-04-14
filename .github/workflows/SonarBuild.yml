@@ -17,10 +17,11 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - name: Build
-        run: yarn 
-      - name: Run test
-        run: yarn test
+
+      - name: npm build
+        run: |
+          npm install --legacy-peer-deps
+          npm run build --prod
   
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
